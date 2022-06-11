@@ -1,0 +1,364 @@
+*{
+    padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+     
+    
+}
+html{
+    font-family:'Asar';
+
+    
+}
+
+nav{
+    background-color:#333333;
+   
+}
+
+h1{
+    font-family:'Asar';
+    font-size:2rem;
+    color: white;
+    
+  
+   }
+
+h2{
+
+    font-size:2 rem;
+    padding: 1rem;
+    font-family: 'Quicksand';
+}
+.info{
+   
+	background: cover;
+    background-color:#333333;;
+    padding:2rem;
+	color: white;
+    background-size: cover;
+     font-family:'Asar';
+    font-size: 20px;
+    
+
+}
+
+.nosotros{
+   
+	
+   margin: 20px;
+}	
+    
+.parrafo{
+  color: white;
+}	
+
+
+
+
+.botonn{
+	padding: 3rem;
+	background-color: #F0D5B7;
+    background-image: url(img/Frame-3.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+	
+    
+}
+
+ .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+#servicios img{
+    width: 100%;
+    
+       
+      
+    }
+#servicios img:hover{
+    border: 5px solid #F0D5B7;
+    
+       
+      
+    }
+
+#servicios .col-lg-4{
+    padding: 25px;
+    margin: 0!important;
+    
+       
+      
+    }
+.contac{
+
+   
+	padding-top: 3rem;
+	padding:2rem;
+	
+    -webkit-background-size: cover;
+    background-size: cover;}
+
+footer{
+        background-color:#898989;
+        color: black;
+    }
+  
+.derechos{
+    font-size:0.5rem;
+    line-height:12;
+}
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media(min-width:576px){
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size:1.4rem;
+}
+    h2{
+        font-size:1rem; 
+    }
+    
+   
+     
+    
+     .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+  
+    .foo{
+       background-color: #333333;
+        color:white;
+        font-family: 'Quicksand';
+        
+    }
+    
+    
+    
+
+
+
+@media(min-width:768px){
+        font-size:1.65rem; 
+    }
+    
+     
+    
+    .contacto{
+       
+        font-size: 2.2rem;
+        color: black;
+        
+    }
+    .load{
+       
+        font-size:2.3rem;
+        color: green;
+        
+    }
+  
+     .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+
+    
+    }
+    footer{
+        background-color: black;
+        color: white;
+    }
+     .derechos{
+    font-size:0.85rem;
+        line-height:8;
+    
+}
+    
+ 
+
+@media(min-width:992px){
+    h1{
+       
+    font-size: 2.9rem;
+}
+    
+    h2{
+        font-size:1.9rem;
+    }
+    
+    .presentacion{
+        color: black;
+        font-size: 1.2rem;
+        font-weight:400;
+    }
+    
+   
+    .foo{
+       background-color: #333333;
+    }
+    
+    
+    .contacto{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.3rem;
+        color: white;
+    }
+    .load{
+        font-family: 'Montserrat', sans-serif;
+        font-size:2.9rem;
+        color: green;
+        padding-top: 2rem;
+        
+    }
+    .play{
+        
+        padding-top:18rem;
+    }
+    
+  
+    .redes{
+        padding-right: 9rem;
+    }
+    .social{
+        font-size:2rem;
+        line-height: 0.8;
+    }
+    
+    .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+  
+    
+
+
+@media(min-width:1200px){
+    h1{
+       
+    font-size: 3.15rem;
+}
+    h2{
+        font-size:2.1rem;
+    }
+    
+    .contacto{
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.6rem;
+        color: white;
+    }
+    
+    
+    
+    .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+    
+   
+    footer{
+        background-color: #090915;
+        color: white;
+    }
+    
+ 
+
+
+    .contacto{
+        
+        color: white;
